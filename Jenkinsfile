@@ -10,7 +10,7 @@ node('ubuntu-appserver-3120')
     {
         /* Thisd Buils the actual image;
         * This is synonymous to docker build on the command line */
-        app =docker.build("rahlou/NodejsChatApp")
+        app =docker.build("rahlou/nodejsChatApp")
     }
     stage('Post-to -dockerhub')
     {
