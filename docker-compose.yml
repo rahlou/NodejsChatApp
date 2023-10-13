@@ -1,6 +1,5 @@
 version: '3.3'
 services:
-  apache:
     image: 'rahlou/nodejschatapp:latest'
     environment:
       - "PORT:3000"
