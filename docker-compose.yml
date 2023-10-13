@@ -1,5 +1,6 @@
 version: '3.3'
 services:
+  jenkins:
     image: 'rahlou/nodejschatapp:latest'
     environment:
       - "PORT:3000"
