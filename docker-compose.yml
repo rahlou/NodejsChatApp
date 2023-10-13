@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   realtimechat:
-    image: 'rahlou/NodejsChatApp:latest'
+    image: 'rahlou/nodejsChatApp:latest'
     environment:
       - "PORT:3000"
     ports:
